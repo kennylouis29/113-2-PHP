@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun Run Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://tse1.mm.bing.net/th?id=OIP.KEQCd3-V0f2sfS2BT6hvSwHaE8&pid=Api&P=0&h=180') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 50px;
+        }
+        table {
+            background: white;
+            color: black;
+            margin: auto;
+            padding: 10px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Fun Run Registration</h1>
+        <h2>Join us for an amazing experience!</h2>
+        <h3>Sign up now and be a part of the event.</h3>
+        <hr>
+        
+        <p>Fill out the form below to register for the Fun Run event.</p>
+        
+        <ul>
+            <li>5K Run</li>
+            <li>10K Run</li>
+            <li>Half Marathon</li>
+        </ul>
+        
+        <ol>
+            <li>Register online</li>
+            <li>Receive confirmation email</li>
+            <li>Join the event on race day</li>
+        </ol>
+        
+        <form action="advertisement.html" method="GET">
+            <table border="1">
+                <tr>
+                    <th>Field</th>
+                    <th>Input</th>
+                </tr>
+                <tr>
+                    <td><b>Full Name:</b></td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><b>Age:</b></td>
+                    <td><input type="number" name="age" required></td>
+                </tr>
+                <tr>
+                    <td><b>Choose Distance:</b></td>
+                    <td>
+                        <select name="distance" required>
+                            <option value="5K">5K</option>
+                            <option value="10K">10K</option>
+                            <option value="Half Marathon">Half Marathon</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+        <br>
+        <hr>
+        <p>Join the run, stay fit, and have fun!</p>
+    </div>
+</body>
+</html>
